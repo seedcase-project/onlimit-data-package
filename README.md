@@ -1,23 +1,5 @@
-# Template for Seedcase Python packages
+# Repository for the ON LiMiT project
 
-This repository contains a template for setting up new data example repos in Seedcase. The first step is to create a new repository using this template. This can easily be done by clicking the "Use this template" button on the repository page or by using the GitHub CLI:
+This repository contains the data handling code for the [ON LiMiT](https://steno-aarhus.github.io/ON-LiMiT/) project.
 
-``` bash
-# NAME is the name to give the new repository
-gh repo create NAME --template seedcase-project/template-example-repo
-```
-
-## Setting things up after cloning
-
-To add Poetry:
-
-``` bash
-cd new-project
-poetry init
-```
-
-Search for `NAME` and `REPO` and replace them with the name of your project and the repository name. Then look for any `TODO` items.
-
-## Setting things up
-
-Use the commands found in [`spaid`](https://github.com/seedcase-project/spaid) repo to run the next setup steps.
+At present, it is very much a work in progress, and the code is not yet ready for use by others. The code is being developed in parallel with the ON LiMiT project, and will be made available when it is ready.
